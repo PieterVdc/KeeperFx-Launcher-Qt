@@ -2,9 +2,11 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Rectangle {
+    id: rectangle
     width: 530
     height: 290
     color: "#723d01"
+    border.color: "#00000000"
 
     TextField {
         id: textField
@@ -17,39 +19,33 @@ Rectangle {
         placeholderText: qsTr("Text Field")
     }
 
-    AdvancedRunOptions {
-        id: advancedRunOptions
-        x: 0
-        y: 8
-        width: 530
-        height: 290
-    }
-
     TabBar {
         id: tabBar
         x: 0
-        y: 0
         width: 530
-        height: 35
+        height: 40
         opacity: 1
         position: TabBar.Header
+        anchors.top: parent.top
+        anchors.topMargin: 0
         currentIndex: 1
 
         TabButton {
             id: tabBtnBasic
-            x: -2
-            y: 0
+            y: -12
             width: 62
             height: 35
             text: qsTr("Basic")
+            anchors.left: parent.left
             font.pixelSize: 16
+            anchors.leftMargin: 0
             display: AbstractButton.TextOnly
         }
 
         TabButton {
             id: tabBtnMulti
-            x: 64
-            y: 0
+            x: 68
+            y: 5
             width: 109
             height: 35
             text: qsTr("Multiplayer")
@@ -59,8 +55,8 @@ Rectangle {
 
         TabButton {
             id: tabBtnAdvanced
-            x: 177
-            y: 0
+            x: 183
+            y: 6
             width: 110
             height: 35
             text: qsTr("Advanced")
@@ -68,11 +64,87 @@ Rectangle {
             display: AbstractButton.TextOnly
         }
     }
+
+    AdvancedRunOptions {
+        id: advancedRunOptions
+        x: 0
+        y: 17
+    }
+
+    MultiplayerRunOptions {
+        id: multiplayerRunOptions
+        x: 0
+        y: 0
+    }
+
+    BasicRunOptions {
+        id: basicRunOptions
+        x: 0
+        y: 8
+    }
+    states: [
+        State {
+            name: "Basic"
+            when: tabBtnBasic.checked
+            PropertyChanges {
+                target: advancedRunOptions
+                visible: false
+            }
+
+            PropertyChanges {
+                target: multiplayerRunOptions
+                visible: false
+            }
+
+            PropertyChanges {
+                target: basicRunOptions
+                visible: true
+            }
+        },
+        State {
+            name: "Multiplayer"
+            when: tabBtnMulti.checked
+            PropertyChanges {
+                target: advancedRunOptions
+                visible: false
+            }
+
+            PropertyChanges {
+                target: multiplayerRunOptions
+                visible: true
+            }
+
+            PropertyChanges {
+                target: basicRunOptions
+                visible: false
+            }
+        },
+        State {
+            name: "Advanced"
+            when: tabBtnAdvanced.checked
+            PropertyChanges {
+                target: advancedRunOptions
+                visible: true
+            }
+
+            PropertyChanges {
+                target: multiplayerRunOptions
+                visible: false
+            }
+
+            PropertyChanges {
+                target: basicRunOptions
+                visible: false
+            }
+
+
+        }
+    ]
 }
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:1.33}D{i:1}D{i:2}D{i:4}D{i:5}D{i:6}D{i:3}
+    D{i:0;formeditorZoom:1.33}D{i:1}D{i:3}D{i:4}D{i:5}D{i:2}D{i:6}D{i:7}D{i:8}
 }
 ##^##*/
 

@@ -33,13 +33,13 @@ import KeeperfxLauncherQt
 
 Window {
     width: Constants.width
-    height: Constants.height
+    height: 520
 
     visible: true
     minimumWidth: 720
     maximumWidth: 720
-    minimumHeight: 500
-    maximumHeight: 500
+    minimumHeight: 520
+    maximumHeight: 520
     title: "KeeperfxLauncherQt"
 
     Screen01 {
