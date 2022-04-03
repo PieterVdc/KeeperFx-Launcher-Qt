@@ -36,9 +36,14 @@ Window {
     height: Constants.height
 
     visible: true
+    minimumWidth: 720
+    maximumWidth: 720
+    minimumHeight: 500
+    maximumHeight: 500
     title: "KeeperfxLauncherQt"
 
     Screen01 {
+        height: 520
     }
 
 }
