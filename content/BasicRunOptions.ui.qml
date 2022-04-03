@@ -28,7 +28,8 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:1.25}D{i:1}D{i:2}
+    D{i:0;formeditorZoom:1.25;uuid:"97d3da8c9e66054f606112fb594dc783"}D{i:1;uuid:"ae55e3d0b0244ef80af4e5774963f0da"}
+D{i:2;uuid:"369970d9b7bc7c5a0ca0bb4b15cae180"}
 }
 ##^##*/
 

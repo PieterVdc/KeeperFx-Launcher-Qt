@@ -130,8 +130,13 @@ Rectangle {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:1.5}D{i:1}D{i:2}D{i:3}D{i:4}D{i:5}D{i:7}D{i:6}D{i:9}D{i:8}D{i:11}
-D{i:10}D{i:13}D{i:12}
+    D{i:0;formeditorZoom:1.5;uuid:"1e0ce85494ab3023a58e1eed35ca8995"}D{i:1;uuid:"ba34c0ab9786cc9c7f849d25b8ce99da"}
+D{i:2;uuid:"bab3b3382c8aed47f76c3910122b0cb4"}D{i:3;uuid:"f52adb143366daf3df38301c0c11770d"}
+D{i:4;uuid:"e6b6f468a341412f013c00fe2b93fecc"}D{i:5;uuid:"82d44435c76aacc5ab7ea609c8d125be"}
+D{i:7;uuid:"3db273940d1495b2a269974ab372075a"}D{i:6;uuid:"d913dd314e22e48a53917aec858d7511"}
+D{i:9;uuid:"dee6574c21bc79f8864e3897847584cc"}D{i:8;uuid:"9d278dc99ebde6ac611774e6920707bf"}
+D{i:11;uuid:"1834c8a1aa5b60807aa5c96f7f7a107a"}D{i:10;uuid:"ce6cf9578870b9df7821c8049745fe41"}
+D{i:13;uuid:"271f84626182d3efa6413ea48be457cf"}D{i:12;uuid:"fec0d7b40516f2dd0a16992d30eed639"}
 }
 ##^##*/
 

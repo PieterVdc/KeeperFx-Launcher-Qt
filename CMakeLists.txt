@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(KeeperfxLauncherQt LANGUAGES CXX)
+project(KeeperfxLauncherQtApp LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
@@ -16,3 +16,4 @@ target_link_libraries(KeeperfxLauncherQtApp PRIVATE
 )
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/qmlmodules)
+

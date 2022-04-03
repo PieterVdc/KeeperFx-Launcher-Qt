@@ -153,8 +153,15 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;height:290;width:530}D{i:1}D{i:2}D{i:3}D{i:4}D{i:5}D{i:6}D{i:7}D{i:8}D{i:9}
-D{i:10}D{i:11}D{i:12}D{i:13}D{i:14}D{i:15}D{i:16}
+    D{i:0;height:290;uuid:"87c69413a4ef7dd01ffff205fd941884";width:530}D{i:1;uuid:"965fe13fac35b1433bd14e0da4e4062e"}
+D{i:2;uuid:"98273bf62245d993b7e0e7dc1f6d6e75"}D{i:3;uuid:"2187cfdda719ad4a968765a06fbd585d"}
+D{i:4;uuid:"22256150e55705abd93addabfee65f38"}D{i:5;uuid:"0558b93fd56edb2839beb822a9e3050b"}
+D{i:6;uuid:"e60d94908b76deb9dfa05160c03a14ee"}D{i:7;uuid:"9812e43c5fdd019a72565c22185fb934"}
+D{i:8;uuid:"61c72d8a64fff1a3aec3a9613b186761"}D{i:9;uuid:"28eca20dffd3ea0f555daf137264beb4"}
+D{i:10;uuid:"1bfcab7bd58a83ff4de9f6f027bd8762"}D{i:11;uuid:"2f737774f92125764bfef1a995bb102e"}
+D{i:12;uuid:"6470c02c0a4633dd14e6403721340e6a"}D{i:13;uuid:"b3b19052497d75818bc7bee534415a59"}
+D{i:14;uuid:"94a3944a9d975d1652bfa41da941ef2a"}D{i:15;uuid:"4535a8d91d688d6a9789597650be1220"}
+D{i:16;uuid:"13036307a020a7e62ce0de87efb4ae23"}
 }
 ##^##*/
 

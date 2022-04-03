@@ -23,7 +23,7 @@ Rectangle {
         id: tabBar
         x: 0
         width: 530
-        height: 40
+        height: 2
         opacity: 1
         position: TabBar.Header
         anchors.top: parent.top
@@ -144,7 +144,17 @@ Rectangle {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:1.33}D{i:1}D{i:3}D{i:4}D{i:5}D{i:2}D{i:6}D{i:7}D{i:8}
+    D{i:0;formeditorZoom:1.33;uuid:"89ddd9203df816ff74e3579378d7abc4"}D{i:10;uuid:"105b98f8139dc4ac6cfa30c1aac618bb"}
+D{i:11;uuid:"07b583c2a9ecd9d4e509ab6d9bd33b14"}D{i:12;uuid:"5f759780d934ad16882dbd56bc8e4326"}
+D{i:9;uuid:"948d470b67e06a2f28ea3fb18e495ca8"}D{i:14;uuid:"e9680b5fc6ce22cb4027b46ce691da27"}
+D{i:15;uuid:"735b0161e69643512be8f9f3b579ae79"}D{i:16;uuid:"a08a888045dc58ad28c8658b30f77d9b"}
+D{i:13;uuid:"6ac76aa6470176e28b7333b9194eaaec"}D{i:18;uuid:"42219ea9e0d1f08aa0335f18ec731720"}
+D{i:19;uuid:"48600dd5d3dc518f6378d7dac97fc26d"}D{i:20;uuid:"8451869a4077cd45e6761e7fea4b01f4"}
+D{i:17;uuid:"74d8339f6cdf94b0cdd2d0deeb50051e"}D{i:1;uuid:"daa6b1264b07f11835d6fcd5ac7c5777"}
+D{i:3;uuid:"17ddce617a9bafd177f0cb042b9b98d8"}D{i:4;uuid:"e1f1dde89aed8c248719d85bb8485204"}
+D{i:5;uuid:"2cecc828f1264d95018e49143da3bf7c"}D{i:2;uuid:"f71138879a07b91b78d5f56ac4363ad1"}
+D{i:6;uuid:"d8abaf7cd895389f9e1a37e53cb4db1e"}D{i:7;uuid:"3b0363ce90605496857c3fe54e035caf"}
+D{i:8;uuid:"d1ab8d7943eb89d122c40a9547480d22"}
 }
 ##^##*/
 
